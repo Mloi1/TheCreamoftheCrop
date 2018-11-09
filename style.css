@@ -1,0 +1,21 @@
+header {
+  text-align: center;
+  height: 250px;
+}
+
+nav {
+  height: 100px;
+}
+
+nav li {
+  display: inline;
+}
+
+form {
+  float: right;
+  margin-top: -15px;
+}
+
+.News {
+  height: 300px;
+}
