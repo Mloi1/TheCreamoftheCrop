@@ -1,11 +1,16 @@
 body {
     font-family: 'Pattaya', sans-serif;
     margin: 0;
+    display: grid;
+    grid-template-rows: 50px 220px 1fr 1fr 220px;
+    grid-template-columns: repeat(2, 1fr);
 }
     
 header {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
     text-align: center;
-    height: 220px;
     background-color: rgb(255, 204, 92);
     padding: 20px;
     color: rgb(47, 79, 79);
@@ -15,11 +20,18 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 nav {
-    height: 50px;
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
     background-color: rgb(255, 111, 105);
     color: rgb(235, 245, 255);
     margin-top: -20px;
+    padding-right: 20px;
     padding-top: 15px;
 }
 
@@ -35,19 +47,32 @@ form {
 }
 
 .News {
-    height: 300px;
+    grid-area: 3 / 1 / 5 / 3;
     background-color: rgb(255, 238, 173);
     color: rgb(47, 79, 79);
     margin-top: -20px;
-    padding-left: 15px;
-    padding-top: 3px;
+    padding: 30px;
+}
+
+.News img {
+    border-style: solid;
+    border-color: rgb(235, 245, 255); 
+    border-width: thick;
+    border-radius: 15px;
+}
+
+.News p {
+    grid-column-start: 2;
 }
 
 footer {
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
     background-color: rgb(150, 206, 180);
+    background-size: cover;
     color: rgb(47, 79, 79);
-    margin-top: -20px;
-    padding: 15px;
+    padding-left: 15px;
 }
 
 footer li {
@@ -57,4 +82,8 @@ footer li {
 
 div p {
     font-size: 18px;
+}
+
+#avocado {
+    grid-column-start: 2 span 1;
 }
