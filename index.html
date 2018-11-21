@@ -1,48 +1,62 @@
 <!DOCTYPE html>
 <head>
   <title>The Cream of the Crop - quick and easy vegetarian recipes</title>
-    <link rel="stylesheet" href="style.css" class="text/css">
     <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" class="text/css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
-<body class="container">
-  <nav id="navbar">
-  <ul>
-  <li>Home</li>
-  <li>About</li>
-  <li>Meals</li>
-  <li>Inspire Me</li>
-  </ul>
-  <form>
-    <input type="text" placeholder="Search">
-      <button type="Submit">Submit</button>
-  </form>
+<body class="container-fluid">
+ <nav class="navbar navbar-default navbar-static-top" style="background-color: rgb(255, 111, 105);">
+     <div class="container">
+         <div class="row">
+      <div class="col-sm-6">
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="pages/about.html" target="_blank">About</a></li>
+             <li><a href="pages/meals.html" target="_blank">Meals</a></li>
+             <li>Inspire Me</li>
+         </ul>
+     </div>
+    <div class="col-sm-6">
+     <form class="navbar-form navbar-right" role="search">
+       <input type="text" placeholder="Search">
+       <button type="Submit">Go</button>
+    </form>
+        </div>
+    </div>
+</div>
 </nav>
-<header>
+<header class="jumbotron" id="title">
+    <div class="row">
   <h1>The Cream of the Crop</h1>
   <h3>Veggie, on the budget, easy recipes</h3>
+        </div>
 </header>
 <!---maya additions-->
-<div class="jumbotron" id="Welcome">
+<div class="container" id="Welcome">
   <h2>Welcome</h2> <!--welcome-->
-  <p>Welcome to Cream of the Crop, a website dedicated to tasty, healthy and on-budget recipes.</p>
-    <h4>With the content of this website, we aim to inspire and motivate people to cook and eat more healthily, without spending more</h4>
-    <h4>Select the 'Meals' link to see different healthy meals, or select 'inspire me' to be inspired.</h4>
-    <h4>Feel free to share your wonderful recipe creations with us via social media, linked below.</h4>
-    <h4>Monthly winners will feature on this site, so get cooking and posting!</h4>
+    <br>
+  <p>Welcome to Cream of the Crop, a website dedicated to tasty, healthy and on-budget recipes. With the content of this website, we aim to inspire and motivate people to cook and eat more healthily, without spending more. Select the 'Meals' link to see different healthy meals, or select 'inspire me' to be inspired. Feel free to share your wonderful recipe creations with us via social media, linked below. Monthly winners will feature on this site, so get cooking and posting!</p>
+    <br>
 <footer>
-  <div class="Contacts">
-    <p>Contact us!</p>
-    <ul>
-      <!--links to be added-->
-        <li>email</li>
-        <li>Facebook</li>
-        <li>Twitter</li>
-        <li>Instagram</li>
-    </ul>
+  <div class="container" id="contacts">
+      <div class="row">
+          <div class="col-sm-2">
+        <p>Contact us!</p>
+              </div>
+            <ul class="col-sm-9">
+            <!--links to be added-->
+            <li>email</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            </ul>
+        </div>
     </div>
 </footer>
+    </div>
+</body>
 
   
   
