@@ -1,3 +1,9 @@
+.jumbotron {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: 30px 200px 100px 200px;
+}
 
 img {
     border-style: solid;
@@ -51,4 +57,22 @@ footer li {
 
 .navigation:visited {
     color: rgb(235, 245, 255);   
+}
+
+#Meals {
+    color: rgb(47, 79, 79);
+    text-align: center;
+}
+
+#title {
+    padding: 80px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 70px;
+}
+
+.row {
+    padding: 40px;
 }
