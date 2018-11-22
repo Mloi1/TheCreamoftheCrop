@@ -1,7 +1,7 @@
 body {
     font-family: 'Pattaya', sans-serif;
     margin: 0;
-    background-image: url(/pictures/IMG_0119.jpeg);
+    background: linear-gradient(35deg, rgb(255, 111, 105), rgb(255, 204, 92));
     background-size: cover no-repeat;
 }
 
@@ -26,7 +26,6 @@ nav li {
 }
 
 #About {
-    background: linear-gradient(35deg, rgb(255, 111, 105), rgb(255, 204, 92));
     color: rgb(47, 79, 79);
     margin-top: 200px;
     padding: 50px;
