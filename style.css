@@ -8,7 +8,7 @@ body {
     text-align: center;
     padding: 20px;
     background-color: rgb(255, 255, 255, 0.5);
-    margin: 30px 200px 100px 200px;
+    margin: auto;
 }
 
 h1 {
@@ -51,15 +51,18 @@ nav li {
 
 
 footer {
+    display: flex;
+    justify-content: center;
     background-color: rgb(150, 206, 180);
     color: rgb(47, 79, 79);
     padding-left: 25px;
     vertical-align: middle;
 }
 
-footer li {
+footer a {
     display: inline;
     padding: 15px;
+    color: cadetblue;
 }
 
 p {
