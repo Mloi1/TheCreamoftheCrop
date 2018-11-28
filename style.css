@@ -1,23 +1,25 @@
 body {
     font-family: 'Pattaya', sans-serif;
     margin: 0;
-    display: grid;
-    grid-template-rows: 50px 220px 1fr 1fr 220px;
-    grid-template-columns: repeat(2, 1fr);
-}
-    
-header {
-    grid-row: 2;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    background-size: cover;
+    }
+
+.jumbotron {
     text-align: center;
-    background-color: rgb(255, 204, 92);
     padding: 20px;
-    color: rgb(47, 79, 79);
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: auto;
 }
 
 h1 {
     font-size: 50px;
+    color: rgb(47, 79, 79);
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(47, 79, 79);
+    text-align: center;
 }
 
 h2 {
@@ -25,65 +27,58 @@ h2 {
 }
 
 nav {
-    grid-row: 1;
-    grid-column-start: 1;
-    grid-column-end: 3;
     background-color: rgb(255, 111, 105);
     color: rgb(235, 245, 255);
-    margin-top: -20px;
+    margin-top: auto;
+    margin-left: -50px;
+    margin-right: -50px;
     padding-right: 20px;
     padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
 }
 
 nav li {
     display: inline;
     padding: 15px;
     text-decoration: underline;
+    font-size: 20px;
 }
 
-form {
-    float: right;
-    margin-top: -35px;
-}
-
-.News {
-    grid-area: 3 / 1 / 5 / 3;
-    background-color: rgb(255, 238, 173);
+#Welcome {
+    background: linear-gradient(35deg, rgb(255, 111, 105), rgb(255, 204, 92));
     color: rgb(47, 79, 79);
-    margin-top: -20px;
-    padding: 30px;
+    margin-top: 200px;
+    padding: 50px;
 }
 
-.News img {
-    border-style: solid;
-    border-color: rgb(235, 245, 255); 
-    border-width: thick;
-    border-radius: 15px;
-}
-
-.News p {
-    grid-column-start: 2;
-}
 
 footer {
-    grid-row: 5;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
     background-color: rgb(150, 206, 180);
     background-size: cover;
     color: rgb(47, 79, 79);
-    padding-left: 15px;
+    padding-left: 25px;
+    vertical-align: middle;
 }
 
-footer li {
+footer a {
     display: inline;
     padding: 15px;
+    color: cadetblue;
 }
 
-div p {
+p {
     font-size: 18px;
+    text-align: justify;
 }
 
-#avocado {
-    grid-column-start: 2 span 1;
+.navigation:link {
+    color: rgb(235, 245, 255);
+}
+
+.navigation:visited {
+    color: rgb(235, 245, 255);   
 }
