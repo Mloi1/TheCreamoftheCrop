@@ -2,7 +2,7 @@ body {
     font-family: 'Pattaya', sans-serif;
     margin: 0;
     background-size: cover;
-    }
+}
 
 .jumbotron {
     text-align: center;
@@ -77,3 +77,5 @@ p {
 .navigation:visited {
     color: rgb(235, 245, 255);   
 }
+
+$("#recipe-carousel").carousel();
