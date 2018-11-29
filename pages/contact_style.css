@@ -2,7 +2,7 @@ body {
     font-family: 'Pattaya', sans-serif;
     margin: 0;
     background-size: cover;
-}
+    }
 
 nav {
     background-color: rgb(255, 111, 105);
@@ -24,20 +24,27 @@ nav li {
     font-size: 20px;
 }
 
-#About {
-    color: rgb(47, 79, 79);
-    margin-top: 200px;
-    padding: 50px;
+.navigation:link {
+    color: rgb(235, 245, 255);
+}
+
+.navigation:visited {
+    color: rgb(235, 245, 255);   
+}
+
+label {
+    display:block;
+}
+
+header {
     text-align: center;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.jumbotron {
     background: linear-gradient(35deg, rgb(255, 111, 105), rgb(255, 204, 92));
-}
-
-h1 {
-    font-size: 35px;
-}
-
-p {
-    font-size: 18px;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
@@ -55,10 +62,3 @@ footer a {
     color: cadetblue;
 }
 
-.navigation:link {
-    color: rgb(235, 245, 255);
-}
-
-.navigation:visited {
-    color: rgb(235, 245, 255);   
-}
