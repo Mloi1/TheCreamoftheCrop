@@ -1,0 +1,81 @@
+img {
+    border-style: solid;
+    border-color: rgb(235, 245, 255);
+    border-width: thick;
+    border-radius: 15px;
+    width: 700px;
+}
+    
+body {
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(47, 79, 79);
+    margin: auto;
+    background: linear-gradient(35deg, rgb(255, 111, 105), rgb(255, 204, 92));
+    background-size: cover no-repeat;
+}
+
+nav {
+    background-color: rgb(255, 111, 105);
+    color: rgb(235, 245, 255);
+    margin-top: auto;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+nav li {
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+.navigation:link {
+    color: rgb(235, 245, 255);
+}
+
+.navigation:visited {
+    color: rgb(235, 245, 255);   
+}
+
+.navigation:hover {
+    text-decoration: underline;
+}
+
+#pearlbarley {
+  padding: 30px 50px 30px 30px;
+    
+}
+
+h2, h3 {
+    font-style: bold;
+}
+
+.ingredients {
+    font-size: 20px;    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(150, 206, 180);
+    color: rgb(47, 79, 79);
+    padding-left: 25px;
+    vertical-align: middle;
+}
+
+footer a {
+    display: inline;
+    padding: 15px;
+    color: cadetblue;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+

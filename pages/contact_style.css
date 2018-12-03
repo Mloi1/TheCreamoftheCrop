@@ -20,7 +20,6 @@ nav {
 nav li {
     display: inline;
     padding: 15px;
-    text-decoration: underline;
     font-size: 20px;
 }
 
@@ -30,6 +29,14 @@ nav li {
 
 .navigation:visited {
     color: rgb(235, 245, 255);   
+}
+
+.navigation:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 label {
@@ -61,4 +68,5 @@ footer a {
     padding: 15px;
     color: cadetblue;
 }
+
 
