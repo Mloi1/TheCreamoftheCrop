@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
   <title>The Cream of the Crop - Our recipes</title>
     <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
@@ -8,52 +9,56 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link href="meals_style.css" rel="stylesheet" type="text/css">
 </head>
-<body class="container-fluid full">
-    <nav id="navbar">
-    <ul>
-    <li><a href="../index.html" target="_blank" class="navigation">Home</a></li>
-    <li><a href="about.html" target="_blank" class="navigation">About</a></li>
-    <li><a href="meals.html" class="navigation">Meals</a></li>
-    <li><a href="contact.html" target="_blank" class="navigation">Contact Us!</a></li>
-    </ul>
+    
+<body class="container-fluid">
+    <nav class="flex-container" id="navbar">
+         <ul>
+             <li><a href="index.html" class="navigation">Home</a></li>
+             <li><a href="pages/about.html" target="_blank" class="navigation">About</a></li>
+             <li><a href="pages/meals.html" target="_blank" class="navigation">Meals</a></li>
+             <li><a href="pages/contact.html" target="_blank" class="navigation">Contact Us!</a></li>
+         </ul> 
     </nav>
-<div class="jumbotron" id="Meals">
-    <div class="row" id="title">
-    <h1>Meals</h1> <!--content, recipes and photos--><!--copied from news section-->
-    <h2>Explore our tasty recipes!</h2>
+    
+    <div class="jumbotron" id="Meals">
+        <h1>Meals</h1>
+        <h2>Explore our tasty recipes!</h2>
     </div>
-</div>
-<div class="row">
-<div class="col-sm-6" id="barley">
-    <a href="pearlbarley.html" target="_blank"><img src="../pictures/Foto%2002-11-18,%2013%2042%2034.jpg" alt="barley&veg" height="500px" alt="responsive image"></a>
-          <p>Pearl Barley with aubergine tomato sauce, roasted vegetables and scrambled egg</p>
-</div>
-<div class="col-sm-6" id="courgette">
-    <a href="tomatorisotto.html" target="_blank">
-        <img src="../pictures/WhatsApp%20Image%202018-11-21%20at%2012.59.23.jpeg" alt="courgette" height="500px" alt="responsive image"></a>
-    <p>Tomato risotto with courgettes</p>
-</div>
-</div>
-<div class="row">
-     <div class="col-sm-6" id="avocado">
-          <a href="" target="_blank"><!--add html for this recipe--><!--changeimage-->
-              <img src="../pictures/Foto%2026-10-18,%2013%2017%2023.jpg" alt="avocado&beans" height="500px" alt="responsive image"></a>
+    
+    <div class="flex-container">
+        <div class="recipe" id="barley">
+            <a href="pearlbarley.html" target="_blank"><img src="../pictures/Foto%2002-11-18,%2013%2042%2034.jpg" alt="barley&veg" alt="responsive image"></a>
+            <p>Pearl Barley with aubergine tomato sauce, roasted vegetables and scrambled egg</p>   
+        </div>
+        <div class="recipe">
+            <a href="tomatorisotto.html" target="_blank">
+                <img src="../pictures/WhatsApp%20Image%202018-11-21%20at%2012.59.23.jpeg" alt="courgette" alt="responsive image"></a>
+                <p>Tomato risotto with courgettes</p>
+        </div>
+    </div>
+    
+    <div class="flex-container">
+     <div class="recipe">
+          <a href="avocado.html" target="_blank">
+              <img src="../pictures/Foto%2026-10-18,%2013%2017%2023.jpg" alt="avocado&beans" alt="responsive image"></a>
           <p>Avocado on wholemeal toast with mixed salad beans and roasted vegetables</p>
         </div>
-    <div class="col-sm-6" id="fajita">
-    <a href="fajitameal.html" target="_blank"><img src="../pictures/fajita.jpeg" alt="fajitameal" height="500px" alt="responsive image"></a>
-    <p>Fun fajita meal!</p>
-  </div>
+        
+    <div class="recipe">
+        <a href="fajitameal.html" target="_blank"><img src="../pictures/fajita.jpeg" alt="fajitameal" alt="responsive image"></a>
+        <p>Fun fajita meal!</p>
     </div>
-      <footer class="container">
-                <!--Facebook-->
-                <a class="fb-ic mr-3" role="button"><i class="fab fa-facebook-f"></i></a>
-            <!--Twitter-->
-                <a class="tw-ic mr-3" role="button"><i class="fab fa-twitter"></i></a>
-            <!--Instagram-->
-                <a class="ins-ic mr-3" role="button"><i class="fab fa-instagram"></i></a>
-          <!--Pinterest-->
-                <a class="pin-ic mr-3" role="button"><i class="fab fa-pinterest-p"></i></a>
-</footer>
+    </div>
+    
+    <footer class="container">
+        <!--Facebook-->
+        <a class="fb-ic mr-3" role="button"><i class="fab fa-facebook-f"></i></a>
+        <!--Twitter-->
+        <a class="tw-ic mr-3" role="button"><i class="fab fa-twitter"></i></a>
+        <!--Instagram-->
+        <a class="ins-ic mr-3" role="button"><i class="fab fa-instagram"></i></a>
+        <!--Pinterest-->
+        <a class="pin-ic mr-3" role="button"><i class="fab fa-pinterest-p"></i></a>
+    </footer>
 </body>
 </html>

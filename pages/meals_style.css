@@ -10,21 +10,29 @@ img {
     border-color: rgb(235, 245, 255);
     border-width: thick;
     border-radius: 15px;
+    height: 500px;
 }
-    
+
 body {
     font-family: 'Pattaya', sans-serif;
     margin: 0;
     background: linear-gradient(35deg, rgb(255, 111, 105), rgb(255, 204, 92));
-    background-size: cover no-repeat;
+    background-size: 100%;
+    align-content: center;
+    }
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
 }
 
-nav {
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
     background-color: rgb(255, 111, 105);
     color: rgb(235, 245, 255);
     margin-top: auto;
-    margin-left: -50px;
-    margin-right: -50px;
     padding-right: 20px;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -53,6 +61,10 @@ footer a {
     color: cadetblue;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    }
 
 .navigation:link {
     color: rgb(235, 245, 255);
@@ -80,6 +92,42 @@ p {
     line-height: 70px;
 }
 
-.row {
-    padding: 40px;
-}
+
+
+@media only screen and (max-width: 600px) {
+    
+    body {
+        width: 100%;
+        margin-right: -50%;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10%;
+        padding-right: 0;
+    }
+     
+    .jumbotron {
+        margin: 2%;
+    }
+
+    img {
+        width: 80%;
+        height: 80%;
+    }
+    
+    #barley {
+        margin-top: 10%;
+    }
+    
+    #navbar {
+        padding-left: 0;
+    }
+    
+    p {
+        line-height: normal;
+    }
+    }
+    

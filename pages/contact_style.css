@@ -69,4 +69,16 @@ footer a {
     color: cadetblue;
 }
 
-
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 35px;
+    }
+    
+    .jumbotron {
+      margin-top: 50px;  
+    }
+    
+    nav li {
+        padding: 20px;
+    }
+}
