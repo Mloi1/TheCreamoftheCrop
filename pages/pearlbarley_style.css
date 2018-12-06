@@ -3,7 +3,7 @@ img {
     border-color: rgb(235, 245, 255);
     border-width: thick;
     border-radius: 15px;
-    width: 700px;
+    width: 500px;
 }
     
 body {
@@ -31,6 +31,8 @@ nav li {
     display: inline;
     padding: 15px;
     font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
 
@@ -77,5 +79,11 @@ footer a {
 p {
     font-size: 18px;
     text-align: justify;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul li {
+    font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
