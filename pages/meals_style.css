@@ -44,6 +44,7 @@ nav li {
     display: inline;
     padding: 15px;
     font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 footer {
@@ -90,6 +91,7 @@ footer a {
 p {
     font-size: 18px;
     line-height: 70px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
