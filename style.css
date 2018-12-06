@@ -163,25 +163,25 @@ img:hover {
     background-color: #717171;
 }
 
-/* Fading animation */
+/* Fading animation
 .fade {
     -webkit-transition: fade;
-    -webkit-transition-duration: 7s;
+    -webkit-transition-duration: 3s;
     animation-name: fade;
-    animation-duration: 7s;
+    animation-duration: 3s;
     animation-direction: alternate;
     transition: ease-in-out;
 } 
 
 @-webkit-keyframes fade {
-    0% {opacity: 0.4} 
+    0% {opacity: 1} 
     100% {opacity: 1}
 }
 
 @keyframes fade {
-    0% {opacity: 0.4} 
+    0% {opacity: 1} 
     100% {opacity: 1}
-}
+} */
 
 @media only screen and (max-width: 600px) {
    .slideshow-container {
